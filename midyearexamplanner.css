@@ -1,0 +1,35 @@
+table {  
+width: 60%;  
+border-collapse: collapse;  
+} 
+
+table, th, td { 
+border: 1px solid black;  
+}  
+
+.easy { 
+    border: 3px solid green;
+    background-color: lightgreen;
+} 
+.medium { 
+    border: 3px solid orange; 
+    background-color:rgb(255, 206, 114)
+}
+.hard { 
+    border: 3px solid red;
+    background-color:rgb(255, 119, 119); 
+} 
+
+th {  
+background-color: indigo;  
+color: white;  
+}  
+
+th, td {  
+padding: 10px;  
+text-align: center;  
+}  
+
+tr:hover {  
+background-color: lightblue;  
+} 
